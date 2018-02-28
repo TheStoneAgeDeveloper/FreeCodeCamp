@@ -1,5 +1,5 @@
 # FreeCodeCamp]
-<b>Convert Celsius To Fahrenheit</b>
+<b><h1>Convert Celsius To Fahrenheit</h1></b>
 <br/>
 To test your learning, you will create a solution "from scratch". Place your code between the indicated lines and it will be tested against multiple test cases.
 
@@ -10,7 +10,7 @@ You are given a variable celsius representing a temperature in Celsius. Use the 
 Note
 Don't worry too much about the function and return statements as they will be covered in future challenges. For now, only use operators that you have already learned.
 <br/>
-<b>Word Blanks</b>
+<b><h1>Word Blanks</h1></b>
 <br/>
 In this challenge, we provide you with a noun, a verb, an adjective and an adverb. You need to form a complete sentence using words of your choice, along with the words we provide.
 
