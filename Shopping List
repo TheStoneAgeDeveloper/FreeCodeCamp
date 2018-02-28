@@ -1,0 +1,2 @@
+//The variable below uses a multi-dimensional array to create a shopping list
+var myList = [["Beef stock",33],["Achaar",3],["Steak",4],["Russians",1],["Fish",4]];
