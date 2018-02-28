@@ -17,3 +17,9 @@ In this challenge, we provide you with a noun, a verb, an adjective and an adver
 You will need to use the string concatenation operator + to build a new string, using the provided variables: myNoun, myAdjective, myVerb, and myAdverb. You will then assign the formed string to the result variable.
 
 You will also need to account for spaces in your string, so that the final sentence has spaces between all the words. The result should be a complete sentence.
+<br/>
+<b><h1>Shopping List</h1></b>
+<br/>
+Create a shopping list in the variable myList. The list should be a multi-dimensional array containing several sub-arrays.
+
+The first element in each sub-array should contain a string with the name of the item. The second element should be a number representing the quantity i.e.There should be at least 5 sub-arrays in the list.
