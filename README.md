@@ -1,4 +1,4 @@
-# FreeCodeCamp]
+# FreeCodeCamp
 <b><h1>Convert Celsius To Fahrenheit</h1></b>
 <br/>
 To test your learning, you will create a solution "from scratch". Place your code between the indicated lines and it will be tested against multiple test cases.
