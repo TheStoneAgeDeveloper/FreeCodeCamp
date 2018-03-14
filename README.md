@@ -27,3 +27,7 @@ The first element in each sub-array should contain a string with the name of the
 <b><h1>Stand In Line</h1></b>
 <br/>
 Write a function nextInLine which takes an array (arr) and a number (item) as arguments. Add the number to the end of the array, then remove the first element of array. The nextInLine function should then return the element that was removed.
+<br/>
+<b><h1>Counting Cards</h1></b>
+<br/>
+You will write a card counting function. It will receive a card parameter and increment or decrement the global count variable according to the card's value (see table). The function will then return a string with the current count and the string "Bet" if the count is positive, or "Hold" if the count is zero or negative. The current count and the player's decision ("Bet" or "Hold") should be separated by a single space.
