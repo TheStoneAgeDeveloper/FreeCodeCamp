@@ -45,3 +45,7 @@ If both are true, then return the "value" of that property.
 If firstName does not correspond to any contacts then return "No such contact"
 
 If prop does not correspond to any valid properties then return "No such property"
+<br/>
+<b><h1>Iterate over Arrays with map</h1></b>
+
+<br/>
