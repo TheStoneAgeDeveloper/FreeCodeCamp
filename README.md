@@ -31,3 +31,17 @@ Write a function nextInLine which takes an array (arr) and a number (item) as ar
 <b><h1>Counting Cards</h1></b>
 <br/>
 You will write a card counting function. It will receive a card parameter and increment or decrement the global count variable according to the card's value (see table). The function will then return a string with the current count and the string "Bet" if the count is positive, or "Hold" if the count is zero or negative. The current count and the player's decision ("Bet" or "Hold") should be separated by a single space.
+<br/>
+<b><h1>Profile Lookup</h1></b>
+<br/>
+We have an array of objects representing different people in our contacts lists.
+
+A lookUpProfile function that takes firstName and a property (prop) as arguments has been pre-written for you.
+
+The function should check if firstName is an actual contact's firstName and the given property (prop) is a property of that contact.
+
+If both are true, then return the "value" of that property.
+
+If firstName does not correspond to any contacts then return "No such contact"
+
+If prop does not correspond to any valid properties then return "No such property"
