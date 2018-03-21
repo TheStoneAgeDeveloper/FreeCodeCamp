@@ -1,1 +1,9 @@
 <h1>Reverse a String</h1>
+function reverseString(str) {
+  str=str.split("");
+  str=str.reverse();
+  str=str.join([separator=""]);
+ return str;
+}
+
+reverseString("hello");
