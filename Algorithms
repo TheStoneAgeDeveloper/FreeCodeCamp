@@ -7,3 +7,23 @@ function reverseString(str) {
 }
 
 reverseString("hello");
+<h1>Find the Longest Word in a String </h1>
+
+function findLongestWord(str) {
+   //Create an array of strings breaking up every space
+  var arrayOfStr=str.split(" ");
+ //Temporary placeholder for longest string
+  var longestStr='';
+  //Iterate through the array and compare longest string with current string
+  for(var i=0;i<arrayOfStr.length;i++)
+  {
+    if(longestStr.length<arrayOfStr[i].length)
+    {
+      longestStr=arrayOfStr[i];
+    }
+  }
+  str=longestStr;
+  return str.length;
+}
+
+findLongestWord("The quick brown fox jumped over the lazy dog");
