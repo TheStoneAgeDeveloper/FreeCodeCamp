@@ -27,3 +27,26 @@ function findLongestWord(str) {
 }
 
 findLongestWord("The quick brown fox jumped over the lazy dog");
+<h1>Return Largest Numbers in Arrays</h1>
+function largestOfFour(arr) {
+  //This will create an array for the largest numbers in each sub array
+ var emptyArray=[];
+  for(var i=0;i<arr.length;i++)
+  {
+    //Placeholder to find the largest number
+    var largestNumber=0;
+    for(var k=0;k<arr.length;k++)
+    {
+      if(largestNumber<arr[i][k])
+      {
+        largestNumber=arr[i][k];
+      }
+    }
+    //Adds the largest numbers in the array
+    emptyArray.push(largestNumber);
+  }
+  return emptyArray;
+ 
+}
+
+largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
